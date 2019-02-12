@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScrewTurn.Wiki.Core", "ScrewTurn.Wiki.Core\ScrewTurn.Wiki.Core.csproj", "{478597AB-1281-4455-88BA-DCA997686079}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{646A3644-BBF5-4BFA-880E-5147DACD180B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{24FEC047-1386-404A-AA8A-97C6ACDFB040}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{0CFB691D-36E3-4F59-AAE6-5FEC7C836205}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrewTurn.Wiki.Core.Test", "Tests\ScrewTurn.Wiki.Core.Test\ScrewTurn.Wiki.Core.Test.csproj", "{C49F8518-2A3F-42DE-BA7F-C693A45C4C11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{478597AB-1281-4455-88BA-DCA997686079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{478597AB-1281-4455-88BA-DCA997686079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{478597AB-1281-4455-88BA-DCA997686079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{478597AB-1281-4455-88BA-DCA997686079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C49F8518-2A3F-42DE-BA7F-C693A45C4C11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C49F8518-2A3F-42DE-BA7F-C693A45C4C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C49F8518-2A3F-42DE-BA7F-C693A45C4C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C49F8518-2A3F-42DE-BA7F-C693A45C4C11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{478597AB-1281-4455-88BA-DCA997686079} = {0CFB691D-36E3-4F59-AAE6-5FEC7C836205}
+		{C49F8518-2A3F-42DE-BA7F-C693A45C4C11} = {646A3644-BBF5-4BFA-880E-5147DACD180B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {828F34C7-0727-4918-A552-6A21A0E8B139}
+	EndGlobalSection
+EndGlobal
